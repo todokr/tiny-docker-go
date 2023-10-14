@@ -1,4 +1,4 @@
-# Go Tiny Docker
+# Tiny Docker
 
 This is a tiny docker runtime written in Go. Not for production use.
 

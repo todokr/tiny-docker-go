@@ -17,8 +17,8 @@ import (
 const (
 	CGreen            = "\033[32m"
 	CEnd              = "\033[0m"
-	ImagesPath        = "~/.dockie/images"
-	ContainerDataPath = "~/.dockie/containers"
+	ImagesPath        = ".dockie/images"
+	ContainerDataPath = ".dockie/containers"
 )
 
 func main() {

@@ -7,14 +7,11 @@ This is a tiny docker runtime written in Go. Not for production use.
 ### Pull image
 
 ```bash
-$ go run main.go pull busybox:latest
+go run main.go pull ubuntu:latest
 ```
 
 ### Run container
 
-not implemented yet
-
-
 ```bash
-$ go run main.go run busybox:latest /bin/sh
+go run main.go run ubuntu:latest /bin/bash
 ```
